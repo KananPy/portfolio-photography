@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        ul#menu li{
+            display: inline;
+            list-style-type: square;
+            font-size: 2em;
+            line-height: 2em;
+
+        }
+
+        .container {
+            display: inline;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+          }
+        .img {
+            display: inline;
+            max-width: 100%;
+            max-height:100%;
+            border: 10%;
+
+            }
+
+        .text {
+            border-style: hidden;
+            border-width: 20px 20px;
+            display: inline;
+            font-size: 20px;
+
+
+
+          }
+
+
+          table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+          }
+    </style>
+    <title>Kanan Photography</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1 style="border: 5px;" align="center" >Home | Kanan Samandarli</h1>
+
+      <nav>
+        <ul id="menu" style="text-align: center; size: 10px;">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Sections -->
+      <div>
+        <!-- Info section -->
+        <section>
+          <div class="container" >
+            <div class="image">
+              <img style="max-width: 20%; border-bottom: 10px;" src="./static/images/KNN_0089.jpg" alt="articles" align="left"/>
+            </div>
+            <div class="image">
+              <img style="max-width: 20%; border-bottom: 10px;" src="./static/images/KNN_0109.jpg" alt="articles" align="right"/>
+            </div>
+
+            <div class="text">
+              <p>
+                I’m a Photographer. My career began as a amatuer, roaming the wasteland of live-action sets from Baku to Istanbul. I learned how to work in fast-paced environments and elevate the skills of those around me. Capturing and designing content that moves. Because I move. To me, people are most important. I’m passionate about breathing fire onto the dreams of others and watching them ignite. Everything I put my fingerprint on is aimed at bringing the best out of others. Fire breather.
+              </p>
+
+              <iframe style="margin-left: 10%;" width="560" height="315" src="https://www.youtube.com/embed/tMBr0QJpu8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Articles -->
+
+            <article style="margin-top: 15%;">
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
+                incidunt nemo commodi doloribus labore illo nam consequuntur, vel
+                accusamus quidem omnis suscipit delectus quos ipsa ut sunt
+                consequatur animi natus!
+              </p>
+            </article>
+
+
+      </div>
+
+      <!-- Aside -->
+      <aside>
+        <table style="margin-top: 80px; width: 100%; margin-bottom: 5%;">
+          <thead>
+            <tr> <th colspan="2">My gear</th> </tr>
+          </thead>
+
+          <tbody>
+            <tr> <td>Camera</td> <td>Nikon D7500</td> </tr>
+            <tr><td>Lens</td> <td>Nikkor 50mm 1.4d</td></tr>
+            <tr><td>Speedlight</td> <td>Yongnuo IV</td></tr>
+
+          </tbody>
+
+        </table>
+      </aside>
+    </main>
+
+    <footer>
+      <!-- contact info -->
+      <div style="width: 50%; height: 100px; float: left; background: rgb(102, 102, 102);">
+        <ul>
+          <li>Baku Azerbaijan</li>
+          <li>Jale Plaze</li>
+          <li>info@eacamp.com</li>
+        </ul>
+      </div>
+
+      <!-- nav info -->
+      <div style="width: 50%; height: 100px; float: right; background: rgb(102, 102, 102);">
+        <ul>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
